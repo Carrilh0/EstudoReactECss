@@ -1,0 +1,35 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a{
+    color:grey;
+    padding: 16px 14px;
+    text-align: center;
+    display: block;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.navbar a.home{
+    color: white;
+}
+
+.navbar a.home:hover{
+    background-color: green;
+    transition: 0.5s;
+}

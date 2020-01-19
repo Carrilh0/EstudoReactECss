@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import Header from '../../components/header';
+
+
 import './style.css';
 
 class Home extends Component {
@@ -6,13 +9,8 @@ class Home extends Component {
     render(){
         return(
             <div className="App">
-                    <div className="navbar">
-                    <a class="home" href="/">Inicio</a>
-                    <a href="">Contato</a>
-                    <a href="">Localização</a>
-                    <a href="">Teste</a>
-                </div>  
-
+                <Header/>
+                    
                 <div className="card">
                 
                 <div className="titulo">
