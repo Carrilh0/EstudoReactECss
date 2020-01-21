@@ -85,6 +85,7 @@ body{
     border: 1px solid black;
     text-decoration: none;
     overflow: auto;
+    cursor: pointer;
 }
 
 .acessar:hover{
