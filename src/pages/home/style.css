@@ -93,3 +93,15 @@ body{
     background-color: rgb(255, 241, 164);
     color: black;
 }
+
+.refresh{
+    display: inline-block;
+    padding: 5px;
+    cursor:pointer;
+    border-radius: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+}

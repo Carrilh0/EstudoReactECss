@@ -49,11 +49,13 @@ class Home extends Component {
                     {this.state.sinopse}
                 </a>
 
-                <a className="acessar" onClick={this.trocar}>Acessar</a>
+                <a className="acessar">Acessar</a>
 
                 </div>
             
-                </div>
+                <a className="refresh" onClick={this.trocar}>Refresh</a>
+
+            </div>
         );
     }
 }
